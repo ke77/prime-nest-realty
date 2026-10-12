@@ -1,16 +1,11 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata } from "next";;
 import "./globals.css";
+import { Inter, Noto_Serif } from "next/font/google";
+import Footer from './components/layout/footer';
+// import ScrollToTop from './components/layout/scrollToTop';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const notoSerif = Noto_Serif({ subsets: ["latin"], variable: "--font-noto-serif" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -21,9 +16,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inter.variable} ${notoSerif.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
+      {/* <ScrollToTop /> */}
+      <Footer />
     </html>
   );
 }
