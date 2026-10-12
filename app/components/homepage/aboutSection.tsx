@@ -37,7 +37,7 @@ const AboutSection = () => {
 
           <Link
             href='/book'
-            className='mt-8 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition-colors hover:text-navy sm:mt-10'
+            className='mt-8 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-ink transition-colors hover:text-navy sm:mt-10 underline underline-offset-8 decoration-gold'
           >
             Start your journey
             <ArrowRight size={16} />

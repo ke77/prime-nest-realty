@@ -38,7 +38,7 @@ const TestimonialsSection = () => {
             <div className='flex items-center gap-3 sm:gap-4'>
               <span className='h-px w-8 shrink-0 bg-gold sm:w-10' />
               <p className='text-[11px] font-semibold uppercase tracking-[0.25em] text-gold sm:text-xs'>
-                Kind Words
+                Client Stories
               </p>
             </div>
 

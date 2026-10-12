@@ -37,7 +37,7 @@ const Footer = () => {
               <li key={href}>
                 <Link
                   href={href}
-                  className='text-sm tracking-[0.15em] text-gray-300 transition-colors hover:text-white'
+                  className='text-sm tracking-[0.15em] text-gray-400 transition-colors hover:text-white'
                 >
                   {label}
                 </Link>
