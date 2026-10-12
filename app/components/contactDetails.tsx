@@ -35,14 +35,14 @@ const lines: ContactLine[] = [
 
 const ContactDetails = () => {
   return (
-    <div className='flex h-full min-w-0 flex-col rounded-lg bg-navy p-4 sm:p-5'>
+    <div className='flex h-full min-w-0 flex-col rounded-t-sm bg-navy p-9 sm:p-9'>
       <div className='relative aspect-[16/10] overflow-hidden rounded-md bg-[url(/contact_office.png)] bg-cover bg-center'>
         <div className='absolute inset-0 bg-linear-to-t from-navy/95 via-navy/40 to-transparent' />
         <div className='absolute inset-x-0 bottom-0 px-5 pb-4 sm:px-6 sm:pb-5'>
-          <p className='text-sm font-semibold uppercase tracking-[0.2em] text-gold sm:text-[15px]'>
+          <p className='text-sm font-serif uppercase tracking-[0.2em] text-white sm:text-xl'>
             Our Accra Office
           </p>
-          <p className='mt-1 text-[11px] uppercase tracking-[0.2em] text-white/70 sm:text-xs'>
+          <p className='mt-3 text-[11px] uppercase tracking-[0.2em] text-white/70 sm:text-xs'>
             Open Mon-Sat
           </p>
         </div>
@@ -72,7 +72,7 @@ const ContactDetails = () => {
                 <Icon size={16} />
               </span>
               <div className='min-w-0 pt-1'>
-                <p className='text-[11px] font-semibold uppercase tracking-[0.22em] text-gold'>
+                <p className='text-[11px] uppercase tracking-[0.22em] text-gold'>
                   {label}
                 </p>
                 {href ? (

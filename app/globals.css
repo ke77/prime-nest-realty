@@ -4,10 +4,10 @@
 @theme {
   /* brand */
   --color-navy: #0F2744;
-  --color-navy-deep: #0a1830;
+  --color-navy-deep: #0F2744;
   --color-ink: #0b1220;
   --color-overlay: #0b2447;
-  --color-gold: #c9a45c;
+  --color-gold: #C9A96E;
   --color-gold-dark: #b8924a;
   --color-copper: #c9843c;
   --color-black: #050E18;
@@ -15,7 +15,7 @@
   /* surfaces */
   --color-mist: #f8f9ff;
   --color-sky: #eef3ff;
-  --color-sand: #f5f0e8;
+  --color-sand: #FAF7F2;
   --color-linen: #f0ece4;
 
   /* badges */
