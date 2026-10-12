@@ -15,9 +15,9 @@ const AboutSection = () => {
           </div>
 
           <h2 className='mt-5 font-serif text-[2rem] leading-[1.2] text-ink sm:mt-6 sm:text-4xl lg:text-[2.75rem]'>
-            Connecting People With{' '}
-            <span className='italic text-gold'>Exceptional</span>{' '}
-            Homes Since 2012
+            Connecting People With <br />
+            <span className='italic text-gold'>Exceptional</span> {' '}
+             Homes Since 2012
           </h2>
 
           <div className='mt-6 space-y-5 text-base leading-[1.9] text-gray-600 sm:mt-7'>
@@ -37,7 +37,7 @@ const AboutSection = () => {
 
           <Link
             href='/book'
-            className='mt-8 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-ink transition-colors hover:text-navy sm:mt-10 underline underline-offset-8 decoration-gold'
+            className='mt-8 inline-flex items-center gap-2 text-sm uppercase tracking-[0.2em] text-ink transition-colors hover:text-navy sm:mt-10 underline underline-offset-8 decoration-gold'
           >
             Start your journey
             <ArrowRight size={16} />
