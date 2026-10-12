@@ -19,7 +19,7 @@ const TestimonialCard = ({ name, role, review, rating }: TestimonialCardProps) =
         className='size-9 fill-gold text-gold sm:size-10'
       />
 
-      <p className='mt-6 font-serif text-base italic leading-[1.9] text-gray-600 sm:text-[17px]'>
+      <p className='mt-6 text-base italic leading-[1.9] text-gray-600 sm:text-lg'>
         {review}
       </p>
 

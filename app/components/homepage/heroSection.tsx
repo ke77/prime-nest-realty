@@ -65,7 +65,7 @@ const HeroSection = () => {
               key={label}
               className='flex min-w-0 flex-col items-center text-center'
             >
-              <p className='font-serif text-3xl leading-none text-white sm:text-4xl lg:text-[2.75rem]'>
+              <p className={`font-serif text-3xl leading-none text-white sm:text-4xl lg:text-[2.75rem]`}>
                 {value}
                 <span className='text-gold'>{suffix}</span>
               </p>
