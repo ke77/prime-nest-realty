@@ -18,7 +18,7 @@ const links: FooterLink[] = [
 const Footer = () => {
 
   return (
-    <footer className='w-full bg-navy-deep text-white'>
+    <footer className='w-full bg-black text-white'>
       <div className='section-inner-container py-12 sm:py-7 flex flex-row justify-between items-center'>
         {/* logo */}
         <div className='text-center'>

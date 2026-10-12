@@ -12,16 +12,16 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    name: 'Sarah Boateng',
-    role: 'Property Investor',
+    name: 'James Osei Bonsu',
+    role: 'Cantonments, Accra',
     review:
       'The level of discretion and service provided by the Concierge team was unparalleled. They didn’t just find a house, they found a lifestyle.',
     rating: 5,
   },
   {
     id: 3,
-    name: 'Mark Thompson',
-    role: 'Expat Investor',
+    name: 'Nana Akua Mensah',
+    role: 'Airport Residential',
     review:
       'Investing in Accra was a daunting prospect until I met the PrimeNest team. Their data-driven approach gave me total confidence.',
     rating: 5,
@@ -49,8 +49,7 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* cards: 1 col, 2 from md, 3 from lg */}
-        <div className='mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:mt-16 lg:grid-cols-3'>
+        <div className='mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:mt-16 lg:grid-cols-3 space-x-8'>
           {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} {...testimonial} />
           ))}

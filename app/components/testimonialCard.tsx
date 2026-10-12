@@ -1,4 +1,5 @@
-import { Quote, Star } from 'lucide-react';
+import { Star } from 'lucide-react';
+import { TfiQuoteRight } from "react-icons/tfi";
 
 export interface Testimonial {
   id: number;
@@ -13,8 +14,7 @@ type TestimonialCardProps = Omit<Testimonial, 'id'>;
 const TestimonialCard = ({ name, role, review, rating }: TestimonialCardProps) => {
   return (
     <article className='flex h-full min-w-0 flex-col rounded-lg bg-white px-7 pb-9 pt-8 shadow-[0_4px_24px_-8px_rgba(11,31,75,0.08)] sm:px-9 sm:pb-10 sm:pt-10'>
-      {/* gold quote icon */}
-      <Quote
+      <TfiQuoteRight
         aria-hidden='true'
         className='size-9 fill-gold text-gold sm:size-10'
       />

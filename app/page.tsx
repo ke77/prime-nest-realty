@@ -3,6 +3,7 @@ import FeaturedProperties from './components/homepage/featuredProperties';
 import HeroSection from './components/homepage/heroSection';
 import WhyChooseUs from './components/homepage/whyChooseUs';
 import TestimonialsSection from './components/homepage/testimonialsSection';
+import ContactSection from './components/homepage/contactSection';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <FeaturedProperties />
       <WhyChooseUs />
       <TestimonialsSection />
+      <ContactSection />
     </main>
 
   );
